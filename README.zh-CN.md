@@ -1,5 +1,9 @@
 # CF Access Test
 
+🌐 [English](README.md) | **中文**
+
+
+
 此项目为 [CF Access Hub Manager](https://github.com/WBhlietue/CF-Access-Hub) 的**范例应用**，示范如何在业务 Worker 里通过 **Service Binding** 调用 hub，获取当前访问者的权限信息。
 
 范例使用 **Astro** 开发。Next.js、SvelteKit 等其他全站框架请自行查找对应写法 —— 真正需要自己写的只有两处：`wrangler.jsonc` 里的 `services` 声明，以及代码里的 `await env.ACCESS.GetPermissions(...)`，其余都是框架自带的 middleware / 请求上下文机制。

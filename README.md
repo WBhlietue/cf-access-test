@@ -1,5 +1,7 @@
 # CF Access Test
 
+🌐 **English** | [中文](README.zh-CN.md)
+
 A **reference app** for [CF Access Hub Manager](https://github.com/WBhlietue/CF-Access-Hub): it shows how a business Worker calls the hub through a **Service Binding** to get the current visitor's permission info.
 
 The example is built with **Astro**. For other full-stack frameworks (Next.js, SvelteKit, …), look up your own equivalent — only two things are actually yours to write: the `services` declaration in `wrangler.jsonc`, and `await env.ACCESS.GetPermissions(...)` in code. Everything else comes from the framework's own middleware / request-context mechanism.
