@@ -182,4 +182,3 @@ Service Binding 只在 Workers 运行时里存在，所以本地不带 Access �
 ## 相关链接
 
 - [CF Access Hub Manager](https://github.com/WBhlietue/CF-Access-Hub)
-- [English README](README.md)

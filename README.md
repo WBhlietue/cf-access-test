@@ -180,4 +180,3 @@ Service Bindings only exist in the Workers runtime, so a local render without th
 ## See also
 
 - [CF Access Hub Manager](https://github.com/WBhlietue/CF-Access-Hub)
-- [中文文档](README.zh-CN.md)
