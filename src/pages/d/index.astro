@@ -1,0 +1,20 @@
+---
+export const prerender = false;
+const user = Astro.locals.user;
+---
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <meta name="viewport" content="width=device-width" />
+        <meta name="generator" content={Astro.generator} />
+        <title>Astro</title>
+    </head>
+    <body>
+        <h1>user name: {user.username}</h1>
+        <h1>user email: {user.email}</h1>
+        <h1>user role: {user.roleName}</h1>
+        <h1>user permission: {user.permission}</h1>
+    </body>
+</html>
